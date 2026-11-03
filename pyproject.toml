@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "accessible-palette-checker"
+version = "1.0.0"
+description = "Check color palettes for WCAG AA/AAA contrast, simulate color blindness, and export HTML/JSON reports. Pure Python, no browser needed."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [{ name = "Asdale Dynamics, LLC" }]
+keywords = ["wcag", "accessibility", "contrast", "palette", "color", "cli"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Multimedia :: Graphics",
+  "Topic :: Utilities",
+]
+
+[project.scripts]
+accessible-palette = "accessible_palette.cli:main"
+
+[tool.setuptools]
+packages = ["accessible_palette"]

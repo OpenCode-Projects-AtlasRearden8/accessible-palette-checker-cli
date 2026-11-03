@@ -1,0 +1,13 @@
+{
+  "title": "Summer Craft Fair Flyer",
+  "background": "#FDF8F2",
+  "simulations": ["protanopia", "deuteranopia", "tritanopia"],
+  "colors": [
+    { "hex": "#29323C", "name": "Charcoal heading" },
+    { "hex": "#41638C", "name": "Steel blue subheading" },
+    { "hex": "#7AB648", "name": "Lime accent" },
+    { "hex": "#E4572E", "name": "Poppy call-out" },
+    { "hex": "#F0A93B", "name": "Marigold button" },
+    { "hex": "#777777", "name": "Neutral gray body" }
+  ]
+}
